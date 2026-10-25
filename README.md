@@ -71,3 +71,5 @@
 
 ---
 **如果你在游玩中有任何问题请提出！ / If you have any questions during gameplay, please ask!**
+- 📦 **[查看模组来源与下载链接 / Mod Links](./INCLUDED-MODS.md)**
+- ⚖️ **[查看免责声明与注意事项 / Disclaimers & Notes](./DISCLAIMER.md)**
