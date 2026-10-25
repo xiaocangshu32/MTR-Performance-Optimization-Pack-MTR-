@@ -1,41 +1,18 @@
-# MTR-性能优化-包-MTR-
-> 一个极致的性能优化的 MTR 模组包，包含大量建筑模组和 Sodium + Voxy。
-> An ultimate performance-optimized MTR modpack, including a large number of building mods and Sodium + Voxy.
-
----
-
-## 📦 包含内容 / What's Included
-
-- **性能优化 / Performance:** 钠全家桶 (Sodium suite) + Voxy + Zoom 放大镜
-- **交通与建造 / Transit & Building:** 机械动力 (Create), MTR 4.0.5 & 附加模组, Macaw 全家桶, 家具与道路模组, Axiom, WorldEdit
-- **界面与修复 / UI & Fixes:** CozyUI+, 输入法冲突修复 (Input conflict fix), 快速退出 (Fast Quit)
-- **光影 / Shaders:** Iris + Complementary Shaders - Reimagined (支持 Voxy, 默认关闭 / supports Voxy, disabled by default)
-
----
-
-## ⚠️ 注意事项 / Notes
-
-1. **存档秒退：** 退出存档时是秒退出的（快速退出模组）。请退出到主界面时，等待右上方显示“保存成功”字样再退出游戏。
-   **Instant Save:** Wait for "Save successful" before quitting the game to avoid save corruption.
-2. **光影建议：** 游玩时建议 5 区块渲染距离运行，核显建议不要开光影，因为 MTR 的模型非常耗费显卡（不玩 MTR 可忽略）。
-   **Performance:** 5-chunk render distance recommended. Skip shaders on integrated GPUs.
-
----
-
-## 🛠️ Voxy 预生成教程 / Voxy Guide
-
-1. `/chunky center` 确定中心坐标 (set center coordinates)
-2. `/chunky radius 64c` 输入你需要的区块数 (enter chunk radius)
-3. `/chunky start` 开始生成区块，**需关闭 Voxy** (start generating, **Voxy must be OFF**)
-4. `/voxy import world <你的存档名称>` 加载区块，**需启用 Voxy**，等待进度条走完 (load chunks, **Voxy must be ON**, wait for progress)
-
----
-
-## ⚖️ 模组来源与免责声明 / Credits & Disclaimer
-
-- **Voxy (官方页面 / Official):** [https://modrinth.com/mod/voxy](https://modrinth.com/mod/voxy)
-- ⚠️ **关于 Voxy 移植版：** 本整合包使用的 Voxy 为非官方移植版本。此模组拥有多个非官方移植版，但分发这些版本均违反此模组的 ARR (All Rights Reserved) 许可声明。
-  **非官方移植版产生的任何问题，请勿向原作者反馈。**
-- ⚠️ **Voxy Port Disclaimer:** This pack uses an unofficial port of Voxy. Distributing unofficial ports violates the mod's ARR license. **Do NOT report issues caused by the unofficial port to the original author.**
-- 本整合包为社区作品，与各模组原作者无关。使用非官方移植版的风险由使用者自行承担。
-  This is a community pack and is not affiliated with the original mod authors. Use at your own risk.
+| 分类 / Category | 模组及功能 / Mods & Features | 说明 / Description |
+| :--- | :--- | :--- |
+| **性能优化**<br>Performance | Sodium 全家桶 (钠、Lithium、Indium 等) | 极致帧数优化 / Extreme FPS optimization |
+| | Voxy + Zoom (放大镜) | 超远视距与放大功能 / Distant view & Zoom |
+| | 各种优化补丁 (内存修复、实体优化、BadOptimizations等) | 减少卡顿，释放内存 / Reduce lag, free memory |
+| | Fast Quit (快速退出) | 秒退存档 / Instant save exit |
+| **交通与建造**<br>Transit & Building | MTR 4.0.5 + JCM (Joban) + 天津地铁 | 核心交通系统及扩展 / Core transit system & addons |
+| | 机械动力 (Create) | 自动化与机械 / Automation & mechanics |
+| | 创世神 (WorldEdit) + Axiom + 轻松建造 | 强力建筑工具 / Powerful building tools |
+| | Macaw 全家桶 (窗户、屋顶、桥梁等) | 丰富建筑细节 / Rich building details |
+| | 大量家具、道路及城市装饰模组 (含方块的城、城市工艺等) | 打造真实城市 / Build realistic cities |
+| **视觉与界面**<br>Visuals & UI | Iris 光影加载器 + 动态光源 | 光影支持 / Shader support |
+| | Complementary Shaders - Reimagined | 默认光影，支持 Voxy (默认关闭) / Default shader (off by default) |
+| | CozyUI+ / ModernUI / 无缝加载界面 | 界面美化 / UI beautification |
+| **实用工具**<br>Utilities | 输入法冲突修复 (IMBlocker) | 解决中文输入问题 / Fixes IME issues |
+| | ReplayMod (时间回溯) / 聊天头像 | 录制回放与社交 / Recording & social |
+| | 区块生成预加载 (Chunky) | 配合 Voxy 预生成地图 / Pre-generate chunks for Voxy |
+| | 鼠标中键整理 (Inventory Profiles) 等 | 便捷操作 / Convenient controls |
